@@ -32,6 +32,6 @@ public class A7Q9 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        allDigitsOdd(5379);
+        allDigitsOdd(212121212);
     }
 }

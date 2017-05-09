@@ -20,7 +20,7 @@ public class A7Q7 {
         if(integer < 0){
             integer = integer * -1;
         }
-        while(integer > 10){
+        while(integer >= 10){
             integer = integer / 10;
         }
         return integer;
