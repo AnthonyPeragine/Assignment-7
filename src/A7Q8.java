@@ -64,6 +64,10 @@ public class A7Q8 {
         }else if(month > 9 && month < 12){
             System.out.println("Fall");
         }
+        
+        if(month > 12 || day > 31){
+            System.out.println("Not a valid date.");
+        }
     }
 
     /**
@@ -72,6 +76,6 @@ public class A7Q8 {
     public static void main(String[] args) {
         // TODO code application logic here
         //calls the season method
-        season(11, 10);
+        season(12, 16);
     }
 }
